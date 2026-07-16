@@ -1,2 +1,5 @@
-Lab1 in week 1
-Lab2 and lab3 are both in week 2
+Lab1 in week1
+Lab2 in week2
+Lab3 in week2
+Lab4 in week2
+Lab5 in NoMash-Library
