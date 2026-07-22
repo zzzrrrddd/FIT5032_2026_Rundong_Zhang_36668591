@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import LoginView from '../views/LoginView.vue'
 import DeniedView from '../views/DeniedView.vue'
+import FirebaseSigninView from '../views/FirebaseSigninView.vue'
+import FirebaseRegisterView from '../views/FirebaseRegisterView.vue'
+import FirebaseLogoutView from '../views/FirebaseLogoutView.vue'
 import { isAuthenticated } from '../composables/useAuth'
 
 const routes = [
@@ -26,6 +29,21 @@ const routes = [
     path: '/denied',
     name: 'Denied',
     component: DeniedView
+  },
+  {
+    path: '/FireLogin',
+    name: 'FireLogin',
+    component: FirebaseSigninView
+  },
+  {
+    path: '/FireRegister',
+    name: 'FireRegister',
+    component: FirebaseRegisterView
+  },
+  {
+    path: '/FireLogout',
+    name: 'FireLogout',
+    component: FirebaseLogoutView
   }
 ]
 
