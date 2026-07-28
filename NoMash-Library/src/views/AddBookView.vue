@@ -10,7 +10,7 @@
         <label for="name">Name:</label>
         <input type="text" v-model="name" id="name" required />
       </div>
-      <button type="submit">Add Book</button>
+      <button type="submit">Add Books</button>
     </form>
 
     <BookList />
